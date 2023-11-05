@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.icon {
+    font-size: 25px;
+    color: rgb(246, 242, 242);
+    filter: brightness(700%);
+}
+
+.myaccount a {
+    padding: 5px;
+}
+
+/* @media(max-width:400px){
+    .about-h1{
+        font-size: 15px;
+        color: red;
+    }
+} */
+
+.img-bg {
+    background-image: url('https://img.freepik.com/premium-photo/alcohol-ink-abstract-texture_102290-745.jpg');
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-repeat: no-repeat;
+    max-height: 500px;
+  
+}
+
+.all-in-one{
+    background-image: url('https://img.freepik.com/free-photo/dark-geometric-background-with-copy-space_24972-1816.jpg');
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 400px;
+}
+
+.our-services{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    grid-gap: 15px;
+}
+
+
+
+
+
+
+.details {
+    background-image: url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-82797.jpg');
+    background-size: 100%;
+    background-position: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    color: antiquewhite;
+    height: 100px;
+}
+
+.detail-items {
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
+}
