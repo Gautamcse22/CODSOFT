@@ -1,191 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <title>Landing Page</title>
+  </head>
 
-    <head>
-        <link rel="stylesheet" href="style.css">
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
-        <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
-        <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-        <title>Landing Page</title>
-    </head>
-
-    <body>
-
-
-        <div class="img-bg">
-
-            <header class="text-gray-600 body-font">
-                <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-
-
-                    <div  style="font-size: 20px; font-weight: 900; "><span style=color:red>L</span>anding <span style=color:red>p</span>age</div>
-                    <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                        <a style="font-size: 15px; color: rgb(5, 5, 245); font-weight: 800; padding:10px;" href="#">Home</a>
-                        <a style="font-size: 15px; color: rgb(5, 5, 245); font-weight: 800; padding:10px;" href="#">About</a>
-                        <a style="font-size: 15px; color: rgb(5, 5, 245); font-weight: 800; padding:10px;" href="#">Services</a>
-                        <a style="font-size: 15px; color: rgb(5, 5, 245); font-weight: 800; padding:10px;" href="#">Contact US</a>
-                    </nav>
-                    <button
-                        class="inline-flex items-center bg-blue-600 border-0 py-1 px-3 focus:outline-none hover:bg-green-700 rounded text-base mt-4 md:mt-0" style="color:white;">Sign up
-                       
-                    </button>
-
-
-                </div>
-
-
-            <section class="text-gray-600 body-font">
-                <div class="img-bg">
-
-
-                    <div
-                        class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-                        <h1 class="title-font sm:text-17xl text-3xl mb-4 font-medium text-blue-800"
-                            style="font-size: 35px; font-family: cursive;">Best Education Plateform For Learning
-
-                        </h1>
-                        <p class="mb-8 leading-relaxed">Welcome to our educational landing page, where knowledge meets
-                            innovation and learning knows no bounds. We believe that education is the key to a brighter
-                            future, and our mission is to empower individuals like you with the tools and resources you
-                            need to achieve your educational goals.</p>
-                        <div class="flex justify-center">
-
-                            <div class="flex w-full md:justify-start justify-center items-end">
-                                <div class="relative mr-4 md:w-full lg:w-full xl:w-1/2 w-2/4">
-                                    <input type="text" id="hero-field" name="hero-field"
-                                        class="w-full bg-gray-100 rounded border bg-opacity-50 border-gray-300 focus:ring-2 focus:ring-purple-200 focus:bg-transparent focus:border-purple-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-                                        placeholder="enter your email">
-                                </div>
-                                <button
-                                    class="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">14
-                                    days Trial</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-                        <img class="object-cover object-center rounded" alt="hero" src="position.png">
-                    </div>
-                </div>
-            </section>
-
-        </header>
+  <body>
+    <div class="img-body">
+      <header>
+        <div class="nav-container">
+          <div style="font-size: 20px; font-weight: 900">
+            <span style="color: rgb(255, 0, 0)">Landing</span>
+            <span style="color: rgb(191, 0, 255)">Page</span>
+          </div>
+          <nav class="nav-items">
+            <a
+              style="
+                font-size: 15px;
+                color: rgb(8, 7, 7);
+                font-weight: 800;
+                padding: 10px;
+              "
+              href="#"
+              >Home</a
+            >
+            <a
+              style="
+                font-size: 15px;
+                color: rgb(17, 15, 15);
+                font-weight: 800;
+                padding: 10px;
+              "
+              href="#"
+              >About</a
+            >
+            <a
+              style="
+                font-size: 15px;
+                color: rgb(17, 16, 16);
+                font-weight: 800;
+                padding: 10px;
+              "
+              href="#"
+              >Services</a
+            >
+            <a
+              style="
+                font-size: 15px;
+                color: rgb(21, 20, 20);
+                font-weight: 800;
+                padding: 10px;
+              "
+              href="#"
+              >Contact US</a
+            >
+          </nav>
+          <button class="vip-button">VIP</button>
         </div>
 
-
-
-
-
-        <section class="text-gray-600 body-font" >
-            <div class="all-in-one">
-              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-                <img class="object-cover object-center rounded" alt="hero" src="https://img.freepik.com/free-photo/folder-sharing-cursor-click-computer-network-concept_53876-21395.jpg" style="border-radius: 15px; padding-left: 20px;">
-              </div>
-              <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-                <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white-900">All In One Place
-                 
+        <div class="about-company">
+          <section>
+            <div class="img-bg">
+              <div style="width: 100%">
+                <h1
+                  style="
+                    color: rgb(230, 4, 162);
+                    font-size: 40px;
+                    font-family: Arial, Helvetica, sans-serifdrrrr;
+                    font-weight: 900;
+                  "
+                >
+                  Best Education Plateform For Learning
                 </h1>
-                <p class="mb-8 leading-relaxed">Join us as we embark on a journey of growth, empowerment, and enlightenment. Knowledge is your passport to endless possibilities, and we're here to help you unlock your full potential. Dive into the world of learning, explore your interests, and start your educational adventure today!</p>
-                <div class="flex justify-center">
-                  <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Join</button>
-                  
+                <p style="margin-right: 50px">
+                  Welcome to our educational landing page, where knowledge meets
+                  innovation and learning knows no bounds. We believe that
+                  education is the key to a brighter future, and our mission is
+                  to empower individuals like you with the tools and resources
+                  you need to achieve your educational goals.
+                </p>
+                <div>
+                  <div
+                    style="
+                      width: fit-content;
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      flex-wrap: wrap;
+                    "
+                  >
+                    <div>
+                      <input
+                        type="email"
+                        id="hero-field"
+                        placeholder="enter your email"
+                        style="
+                          font-size: 15px;
+                          border-radius: 15px;
+                          padding: 10px;
+                          margin-top: 20px;
+                          box-shadow: rgb(235, 235, 235) 0px 0px 2px 5px;
+                        "
+                        required
+                      />
+                    </div>
+                    <button
+                      style="
+                        font-size: 15px;
+                        border-radius: 10px;
+                        padding: 10px;
+                        margin-top: 20px;
+                        margin-left: 10px;
+                        color: whitesmoke;
+                        background-color: rgb(32, 252, 12);
+                      "
+                    >
+                      Subscribe
+                    </button>
+                  </div>
                 </div>
+              </div>
+              <div>
+                <img alt="education_img" src="position.png" />
               </div>
             </div>
           </section>
-          <br><br>
+        </div>
+      </header>
+    </div>
 
+    <div class="about-section">
+      <section class="about-us">
+        <div class="about-image">
+          <img
+            src="https://oasisinfobyte.com/image/ab.svg"
+            alt="About Us Image"
+            style="width: 100%; border-radius: 15px"
+          />
+        </div>
+        <div class="about-text">
+          <h2 class="heading2">About Us</h2>
+          <p>
+            We At My Landing Page Website, Believe In Making Our Youth
+            Especially The Students Self-Aware And Exploring The Untouched World
+            Of Technology And Tremendous Growth-Making Fields. We Believes In
+            Bridging The Gap Between Students And Their Knowledge In The
+            Industrial Field & Bringing Them A Step Closer To Their Dream.
+          </p>
+        </div>
+      </section>
+    </div>
 
-      <h1 style="text-align: center;  font-size: 20px; font-weight: 800; color:rgb(11, 144, 239);" > Our Services</h1>
-      <br><br>
+    <br /><br />
 
-      <div class="our-services">  
+    <h1
+      style="
+        text-align: center;
+        font-size: 20px;
+        font-weight: 800;
+        color: rgb(239, 11, 11);
+        font-family: Arial, Helvetica, sans-serif;
+      "
+    >
+      Our Services
+    </h1>
+    <br /><br />
 
-          <div class="w-80 h-120 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
-            <div><img src="https://img.freepik.com/free-photo/website-hosting-concept-with-cloud_23-2149406777.jpg" ></div>
-            <div >
-                <p class="font-extrabold">Cloud Solutions</p>
-                <p class="">Our Cloud Services combines industry-leading business solutions with a high-touch, business outcome based approach to help you maximize the true transformative potential of the cloud. </p>
-            </div>
-            <button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button>
+    <div class="service-container">
+      <div class="service-card">
+        <h3>Web Design</h3>
+        <p>
+          They use design programmes to create visual elements and usually have
+          expertise in user interface (UI), which means they strategically
+          design a site that's intuitive and easy for visitors to navigate .
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Graphic Design</h3>
+        <p>
+          Our Creative Designers Offer Outstanding And Attention-Grabbing
+          Visuals For Brochures, Banners, Flyers, Logos, Business Cards,
+          E-Books, And Many More.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Animation Design</h3>
+        <p>
+          Animations Make Your Brand More Engaging And Interactive. This Makes
+          Them Great Assets To Share On Social Media, Distribute Through Email,
+          Feature Internally And Host On Your Website—They’re That Versatile.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Cloud Computing</h3>
+        <p>
+          Whatever Type Of Cloud Computing Services You Use, One Thing Is
+          Certain: Large Quantities Of Data Will Move Back And Forth Between
+          Your End Users And The Cloud Provider's Data Centers, Over The
+          Internet.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Database Management</h3>
+        <p>
+          Your Databases Are At The Core Of Your Business. Whether You’re
+          Operating On-Premises Or In The Cloud, Using A Traditional Or
+          Open-Source Platform, Our Global Experts Are Available Around The
+          Clock To Help You Turn Your Databases Into A Business Differentiator.
+        </p>
+      </div>
+
+      <div class="service-card">
+        <h3>Machine Learning Solutions</h3>
+        <p>
+          Artificial Intelligence & Machine Learning Offerings Help
+          Organizations Build Highly-Customized Solutions Running On Advanced
+          Machine Learning Algorithms.
+        </p>
+      </div>
+    </div>
+
+    <br /><br />
+
+    <section>
+      <div>
+        <div class="details">
+          <div class="detail-items">
+            <h2 class="detail-items">50+</h2>
+            <p>Total Courses</p>
+          </div>
+          <div class="detail-items">
+            <h2 class="detail-items">300+</h2>
+            <p>Total Instractor</p>
           </div>
 
-
-          
-          <div class="w-80 h-120 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
-            <div><img src="https://img.freepik.com/premium-photo/software-development-word-cloud_698953-3384.jpg" ></div>
-            <div >
-                <p class="font-extrabold">Software Development</p>
-                <p class="">We successfully deliver the customized software’s for our clients based on their business requirements and it has really helped them to smooth their execution process and have a proper track of their implementation . </p>
-            </div>
-            <button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button>
+          <div class="detail-items">
+            <h2 class="detail-items">35k+</h2>
+            <p>Total Students</p>
           </div>
-
-          
-          <div class="w-80 h-120 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
-            <div><img src="https://img.freepik.com/premium-photo/colored-ice-cream-sticks-with-text-mobile-app-development-green-background_406607-2365.jpg" ></div>
-            <div >
-                <p class="font-extrabold">App Development
-                </p>
-                <p class="">We strengthen your business with the features of rich native or diverse applications and deliver the best user-friendly.App development services involve the creation, design ...</p>
-            </div>
-            <button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button>
+          <div class="detail-items">
+            <h2 class="detail-items">9k+</h2>
+            <p>Certified</p>
           </div>
-
-          
-          <div class="w-80 h-120 bg-neutral-800 rounded-3xl text-neutral-300 p-4 flex flex-col items-start justify-center gap-3 hover:bg-gray-900 hover:shadow-2xl hover:shadow-sky-400 transition-shadow">
-            <div><img src="https://img.freepik.com/premium-photo/graphic-design-written-golden-letters_556904-707.jpg" ></div>
-            <div >
-                <p class="font-extrabold">Graphic Design</p>
-                <p class="">Our Creative Designers Offer Outstanding And Attention-Grabbing Visuals For Brochures, Banners, Flyers, Logos, Business Cards, E-Books, And Many More. Graphic Design is a dynamic field that combines art, technology, and communication to create compelling visuals. </p>
-            </div>
-            <button class="bg-sky-700 font-extrabold p-2 px-6 rounded-xl hover:bg-sky-500 transition-colors">See more</button>
-          </div>
-
-
-          </div>
-
-<br><br>
-
-
-
-
-        <section>
-            <div>
-                <div class="details">
-
-                    <div class="p-4 sm:w-1/4 w-1/2">
-                        <h2 class="detail-items">250+</h2>
-                        <p>Total Courses</p>
-                    </div>
-                    <div class="p-4 sm:w-1/4 w-1/2">
-                        <h2 class="detail-items">300+</h2>
-                        <p>Total Instractor </p>
-                    </div>
-
-                    <div class="p-4 sm:w-1/4 w-1/2">
-                        <h2 class="detail-items">35k+</h2>
-                        <p>Total Students</p>
-                    </div>
-                    <div class="p-4 sm:w-1/4 w-1/2">
-                        <h2 class="detail-items">45k+</h2>
-                        <p>Seats</p>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-
-
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script src="https://use.fontawesome.com/03f8a0ebd4.js"></script>
-
-
-
-    </body>
-
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
